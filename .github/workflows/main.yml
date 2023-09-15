@@ -23,7 +23,7 @@ jobs:
       - name: Deploy to S3
         run: |
           # Sync your build artifacts to S3
-          aws s3 sync ./path/to/build s3://your-s3-bucket-name
+          aws s3 sync ./path/to/build s3://cloud-training-carolina-linde
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
