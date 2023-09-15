@@ -5,6 +5,7 @@
   "main": "\"\"",
   "scripts": {
     "test": "npx playwright test --reporter=list --headed --project=game-chrome --config=playwright.config.ts"
+    "build": "your-build-command-here"
   },
   "author": "Marcus",
   "license": "ISC",
